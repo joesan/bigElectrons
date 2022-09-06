@@ -1,0 +1,67 @@
+[[main]]
+  name = "Posts"
+  url = ""
+  weight = -110
+
+[[main]]
+  name = "Facts"
+  url = "post/facts/facts"
+  weight = -109
+
+[[main]]
+  name = "Projects"
+  url = "post/projects/"
+  weight = -108
+
+[[main]]
+  name = "Navo"
+  url = "post/navo/"
+  weight = -107
+
+[[main]]
+  name = "Links"
+  url = "post/links/"
+  weight = -106
+
+[[main]]
+  name = "About"
+  url = "about/"
+  weight = -105
+
+[[main]]
+  parent = "About"
+  name = "About Me"
+  url = "about/"
+
+[[main]]
+  parent = "About"
+  name = "Privacy"
+  url = "post/privacy/privacy-policy"
+
+# social menu links
+
+[[social]]
+  name = "github"
+  type = "social"
+  weight = 1
+  url = "https://github.com/joesan"
+[[social]]
+  name = "stackoverflow"
+  weight = 2
+  url = "https://stackoverflow.com/users/3102968/joesan"
+[[social]]
+  name = "rss"
+  weight = 4
+  url = "index.xml"
+
+# other supported social links
+# name = "youtube"
+# url = "https://www.youtube.com/#"
+# name = "facebook"
+# url = "https://facebook.com/#"
+# name = "instagram"
+# url = "https://instagram.com/#"
+# name = "stackoverflow"
+# url = "https://stackoverflow.com/#"
+# name = "gitlab"
+# url = "https://gitlab.com/#"
